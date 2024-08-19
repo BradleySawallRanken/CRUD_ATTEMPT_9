@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/CRUD_ATTEMPT_9/',
+  base: '/CRUD_ATTEMPT_9/',  // Ensure this matches your GitHub repo name
   plugins: [react()],
-})
+});
